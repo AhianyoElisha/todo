@@ -1,0 +1,83 @@
+/* ##################################################################################################### */
+
+/* readModal style */
+.modal-read .move-icon i {
+	color: #e9e9e9;
+	font-size: 46px;
+	display: inline-block;
+	margin-top: 13px;
+}
+.modal-read .move-icon {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	margin: 0 0px;
+	border-radius: 50%;
+	z-index: 9;
+	text-align: center;
+	border: 4px solid #e7e7e7;
+}
+.modal-read {
+		color: #636363;
+	}
+	.modal-read .modal-content {
+		padding: 20px;
+		border-radius: 5px;
+		border: none;
+		text-align: center;
+		font-size: 14px;
+	}
+	input{
+		border: none;
+		 -webkit-appearance: none
+		 border-color:transparent;
+	}
+	.modal-read .modal-header {
+		display: block;
+		text-align: center;
+		border-bottom: none;
+		position: relative;
+	}
+	.modal-read h4 {
+		text-align: center;
+		font-size: 26px;
+		margin: 30px 0 -10px;
+	}
+	.modal-read .close {
+		position: absolute;
+		top: -5px;
+		right: -2px;
+	}
+	.modal-delete .modal-body {
+		color: #999;
+	}
+	.modal-read .modal-footer {
+		border: none;
+		display: inline-block;
+		text-align: center;
+		border-radius: 5px;
+		font-size: 13px;
+		padding: 10px 15px 25px;
+	}
+	.modal-read .modal-footer a {
+		color: #999;
+	}
+		.modal-read .btn {
+		color: #fff;
+		text-decoration: none;
+		transition: all 0.4s;
+		line-height: normal;
+		min-width: 120px;
+		border: none;
+		min-height: 40px;
+		border-radius: 3px;
+		margin: 0 5px;
+		outline: none !important;
+		}
+	.modal-read .btn-info {
+				background: #c1c1c1;
+		}
+		.modal-read .btn-info:hover, .modal-delete .btn-info:focus {
+				background: #a8a8a8;
+		}
+		/* ###################################################################################################### */

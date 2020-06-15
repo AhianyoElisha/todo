@@ -1,0 +1,59 @@
+.container{
+  padding-bottom: 40px;
+  margin-top: 10px;
+  min-height: 600px;
+  position: relative;
+  box-shadow: 3px 30px 15px 30px #efefef;
+}
+span {
+  color: #fff;
+}
+h1{
+    position: absolute;
+    font-size:35px ;
+    margin-top: 20px ;
+    margin-bottom: 10px ;
+    font-weight: 100 ;
+    letter-spacing: 10px;
+    left: 72%;
+    bottom: 30%;
+    color: #3c4858 ;
+}
+button{
+  top: 80%;
+  position: relative;
+  left:80%;
+}
+
+.img{
+  background: url("../images/WOW1.jpg") no-repeat center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin-top: 25px;
+  position: relative;
+}
+table {
+  margin-top: 10px;
+  padding-top: 30px;
+}
+
+table>tr>td {
+width: 100%;
+position: relative;
+}
+
+
+a:hover{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+a:focus {
+    color: #89229b !important;
+    text-decoration: none !important;
+}
+.btn{
+  color: #89229b !important;
+    border-radius: 30px !important;
+}

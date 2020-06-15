@@ -1,0 +1,111 @@
+
+/* ###################################################################################################### */
+/* Main page */
+        @import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great|Zilla+Slab:800,900");
+	body{
+	}
+	.datepop {
+			position: absolute;
+			font-size: 3em;
+			bottom: 20px;
+			left: 20px;
+			color: white;
+	}
+.container{
+	margin-bottom: 100px;
+}
+
+	.card{
+		height: 300px;
+		border: none;
+		background: url("../images/Illustration.jpg") no-repeat center;
+		background-size: cover;
+		border-radius:14px;
+		max-width: 600px;
+		display:block;
+		margin: 50px auto auto;
+		padding:60px;
+		padding-left:20px;
+		padding-right:20px;
+		box-shadow: 30px 10px 50px #efefef;
+		z-index:99;
+	}
+
+
+	.todo-table{background: #fff;
+	box-shadow:20px 20px 40px 40px #efefef ;
+	border-radius:4px;
+	padding:5%;
+	min-height: 500px;
+	padding-top:200px;
+	max-width:900px;
+	margin:auto;
+	margin-top:-180px;
+}
+
+.proceed span {
+	bottom: 20px;
+	position: relative;
+	font-size: 60px;
+	display: inline-block;
+	color: #fff;
+}
+	.proceed{position:absolute;
+		transform:translate(455px, 200px);
+		width:70px; height:70px;
+		border-radius:50%;
+		background:#1abc9c;
+		border:none;
+		text-align: center;
+		color:white;
+		transition: box-shadow .2s, transform .4s;
+		cursor:pointer;
+	}
+	.proceed:active{outline:none; }
+	.proceed:focus{outline:none;box-shadow: inset 0px 0px 50px #adadad;}
+
+	@media (max-width: 600px){
+		.proceed{transform:translate(3px, 10px);}
+		.fa-icon {
+			font-size: 14px;
+		}
+		.card{
+			height: 300px;
+			border-radius:7px;
+			min-width: 395px;
+			display:block;
+			margin:auto 0;
+			padding:20px;
+			padding-left:10px;
+			padding-right:10px;
+
+		}
+		.todo-table{
+		 padding:0%;
+		 padding-top:200px;
+		 min-width:400px;
+		 display:block;
+		 margin-right:10px;
+		 margin-top:-180px;
+		 z-index:-999;
+		 position:relative;
+	 }
+
+	}
+
+	@media (max-width: 400px){
+		.card{
+			height: 200px;
+		}
+		.fa-icon {
+			font-size: 11px;
+		}
+	}
+	@media (max-width: 800px){
+		.proceed{position:absolute;
+			transform:translate(400px, 200px);
+		}
+
+		.card{
+			min-width: 395px;
+	}

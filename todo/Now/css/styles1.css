@@ -1,0 +1,130 @@
+/* ##################################################################################################### */
+/* Add item modal */
+	.modal-additem {
+		color: #434e65;
+		width: 525px;
+	}
+	.modal-additem .modal-content {
+		padding: 20px;
+		font-size: 16px;
+		border-radius: 5px;
+		border: none;
+	}
+	.modal-additem .modal-header {
+		background: #47c9a2;
+		border-bottom: none;
+    position: relative;
+		margin: -20px -20px 0;
+		border-radius: 5px 5px 0 0;
+		padding: 35px;
+	}
+	.modal-additem h4 {
+		text-align: center;
+		font-size: 36px;
+		margin: 10px 0;
+	}
+	.modal-additem .form-control, .modal-additem .btn {
+		min-height: 40px;
+	}
+	.modal-additem .close {
+    position: absolute;
+		top: 15px;
+		right: 15px;
+		color: #fff;
+		text-shadow: none;
+		opacity: 0.5;
+	}
+	.modal-additem .close:hover {
+		opacity: 0.8;
+	}
+	.modal-additem .icon-box {
+		color: #fff;
+		width: 95px;
+		height: 95px;
+    margin-left: 170px;
+		display: inline-block;
+		border-radius: 50%;
+		z-index: 9;
+		border: 5px solid #fff;
+		padding: 15px;
+		text-align: center;
+	}
+	.modal-additem .icon-box i {
+		font-size: 64px;
+		padding: 5px
+		margin: -4px 0 0 -4px;
+	}
+	.modal-additem.modal-dialog {
+		margin-top: 80px;
+	}
+    .modal-additem .btn {
+    color: #fff;
+    border-radius: 4px;
+		background: #eeb711;
+		text-decoration: none;
+		transition: all 0.4s;
+    line-height: normal;
+		margin-top: 10px;
+		padding: 15px 20px;
+    border: none;
+    }
+	.modal-additem .btn:hover, .modal-additem .btn:focus {
+		background: #eda645;
+		outline: none;
+	}
+  .form__input{
+  	width: 100%;
+  	border:0px solid transparent;
+  	border-radius: 0;
+  	border-bottom: 1px solid #aaa;
+  	padding: 1em .5em .5em;
+  	padding-left: 2em;
+  	outline:none;
+  	margin:1.5em auto;
+  	transition: all .5s ease;
+  }
+  .form__input:focus{
+  	border-bottom-color: #008080;
+  	box-shadow: 0 0 5px rgba(0,80,80,.4);
+  	border-radius: 4px;
+  }
+
+	.input-group-addon{
+		padding: 0 6px 6px 6px;
+		position: relative;
+		font-size: 1.7em;
+		border-radius: 0 8px 8px 0;
+		height: 40px;
+		background-color: #47c9a2;
+		z-index: 10;
+		right: 3%;
+	}
+
+	.form-control{
+		height: 80px;
+		border: none;
+	}
+	.datetime-local,.datetime-local:active{
+		appearance:none;
+	  box-sizing: border-box;
+		border: none;
+		border-bottom: 1px solid #adadad;
+	  font-size: 1.5rem;
+	  padding: 8px;
+	  ::-webkit-datetime-edit-text { padding: 0 1rem; }
+	  ::-webkit-datetime-edit-month-field { text-transform: uppercase; }
+	  ::-webkit-datetime-edit-day-field { text-transform: uppercase; }
+	  ::-webkit-datetime-edit-year-field { text-transform: uppercase; }
+	  ::-webkit-inner-spin-button { display: none; }
+		::-webkit-inner-border { display: none; }
+	  ::-webkit-calendar-picker-indicator { background: transparent;}
+	}
+	.fa-calendar{
+		z-index: 10;
+		color: white;
+	}
+	button button:active{
+		outline: none;
+		border: none;
+	}
+	/* ##################################################################################################### */

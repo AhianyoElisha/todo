@@ -1,0 +1,100 @@
+
+/* ##################################################################################################### */
+/* Edit item modal */
+.modal-edititem {
+  color: #434e65;
+  width: 1225px;
+}
+.modal-edititem .modal-content {
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+.modal-edititem .modal-header {
+  background: #47c9a2;
+  border-bottom: none;
+  position: relative;
+  margin: -20px -20px 0;
+  border-radius: 5px 5px 0 0;
+  padding: 35px;
+}
+.modal-edititem h4 {
+  text-align: center;
+  font-size: 36px;
+  margin: 10px 0;
+}
+.modal-edititem .form-control, .modal-edititem .btn {
+  min-height: 40px;
+  border-radius: 3px;
+}
+.modal-edititem .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #fff;
+  text-shadow: none;
+  opacity: 0.5;
+}
+.modal-edititem .close:hover {
+  opacity: 0.8;
+}
+.modal-edititem .icon-box {
+  color: #fff;
+  width: 95px;
+  height: 95px;
+  margin-left: 170px;
+  display: inline-block;
+  border-radius: 50%;
+  z-index: 9;
+  border: 5px solid #fff;
+  padding: 15px;
+  text-align: center;
+}
+.modal-edititem .icon-box i {
+  font-size: 64px;
+  padding: 5px
+  margin: -4px 0 0 -4px;
+}
+.modal-edititem .modal-dialog {
+  margin-top: 80px;
+}
+  .modal-edititem .btn {
+  color: #fff;
+  background: #eeb711;
+  text-decoration: none;
+  transition: all 0.4s;
+  line-height: normal;
+  margin-top: 10px;
+  padding: 15px 20px;
+      border: none;
+  }
+.modal-edititem .btn:hover, .modal-edititem .btn:focus {
+  background: #eda645;
+  outline: none;
+}
+
+
+.form__input{
+  width: 100%;
+  border:0px solid transparent;
+  border-radius: 0;
+  border-bottom: 1px solid #aaa;
+  padding: 1em .5em .5em;
+  padding-left: 2em;
+  outline:none;
+  margin:1.5em auto;
+  transition: all .5s ease;
+}
+.form__input:focus{
+  border-bottom-color: #008080;
+  box-shadow: 0 0 5px rgba(0,80,80,.4);
+  border-radius: 4px;
+}
+
+
+button button:active{
+  outline: none;
+  border: none;
+}
+  /* ##################################################################################################### */
