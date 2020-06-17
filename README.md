@@ -12,5 +12,3 @@ For windows
 folder found in the XAMPP folder(The XAMPP folder is found in C:\)
 * Execute `http://localhost/todo/Now/main.php` in your browser to run the application
 
-
-- main.php : Main page file(this is the center for the all the php files)
